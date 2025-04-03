@@ -1,0 +1,33 @@
+# Thư viện chính
+express==4.18.2          # Framework web Node.js
+mongoose==8.13.1         # ODM cho MongoDB
+socket.io==4.8.1         # Thư viện WebSocket cho giao tiếp thời gian thực
+
+# Bảo mật
+bcrypt==5.1.1            # Mã hóa mật khẩu
+jsonwebtoken==9.0.2      # Xác thực người dùng với JWT
+
+# Tiện ích
+dotenv==16.4.7           # Quản lý biến môi trường
+cors==2.8.5              # Hỗ trợ Cross-Origin Resource Sharing
+nodemon==3.1.9           # Tự động khởi động lại server khi có thay đổi (dev dependency)
+
+# Phiên bản Node.js hỗ trợ
+# Node.js >= 14.x
+
+# Yêu cầu hệ thống
+# MongoDB >= 4.4
+# RAM tối thiểu: 512MB
+# Dung lượng lưu trữ: 500MB trở lên
+
+# Môi trường phát triển đề xuất
+# Visual Studio Code với các extension:
+# - ESLint
+# - Prettier
+# - MongoDB for VS Code
+
+# Hướng dẫn cài đặt
+# 1. Cài đặt Node.js và MongoDB
+# 2. Tạo thư mục dự án và cài đặt các dependency: npm install
+# 3. Tạo file .env với cấu hình phù hợp
+# 4. Khởi động MongoDB và ứng dụng: npm run dev
